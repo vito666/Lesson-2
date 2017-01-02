@@ -1,0 +1,360 @@
+@import url('https://fonts.googleapis.com/css?family=Amatic+SC|Euphoria+Script|Josefin+Slab:300,400,600');
+header.header {
+    position: relative;
+    display: block;
+}
+
+header.header > .logo {
+    position: absolute;
+    left: 100px;
+    z-index: 999;
+}
+
+.item > img {
+    width: 100%;
+    height: 410px;
+}
+
+.carouselpos {
+    position: relative;
+}
+
+.imgsize {
+    width: 100%;
+    height: 100%;
+}
+
+.award {
+    position: absolute;
+}
+
+.bar {
+    background-color: #42685e;
+    width: 100%;
+    height: 200px;
+}
+
+.black-shape {
+    font-family: 'Euphoria Script', cursive;
+    background-image: url('../Img/Black%20shape.png');
+    width: 230px;
+    height: 230px;
+    -webkit-background-size: cover;
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 2;
+    position: absolute;
+    right: 30px;
+    bottom: -20px;
+}
+
+.black-shape > h4 {
+    font-size: 40px;
+    font-weight: bold;
+    text-transform: capitalize;
+    margin-top: 35px;
+    text-align: center;
+    color: skyblue;
+}
+
+.black-shape > p {
+    font-weight: 600;
+    margin-top: 5px;
+    font-family: 'Josefin Slab', serif;
+    font-size: 20px;
+    line-height: 1;
+    text-align: center;
+    color: aliceblue;
+}
+
+.stripe1 {
+    margin-top: 40px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.stripe2 {
+    margin-top: 10px;
+    text-align: center;
+    margin-left: 40px;
+}
+
+.stripep {
+    text-align: center;
+    font-size: 20px;
+    font-family: 'Josefin Slab', serif;
+    font-weight: 300;
+    color: #fffbe3;
+    margin-top: 25px;
+}
+
+.stripep > span {
+    font-weight: 600;
+}
+
+.plenty-logo {
+    margin-top: 5px;
+    margin-left: 110px;
+}
+
+.menu {
+    background-image: url(../Img/_Path_.png);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+}
+
+.navigation {
+    text-decoration: none;
+    text-align: center;
+    color: black;
+    font-family: "Euphoria Script", cursive;
+    font-size: 25px;
+    margin-left: 240px;
+}
+
+.marg {
+    margin-right: 60px;
+}
+
+.marg1 {
+    margin-left: 120px;
+}
+
+.backpie {
+    background-image: url(../Img/Large%20static%20image.png);
+    background-size: cover;
+    width: 100%;
+    height: 420px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 999;
+}
+
+.margcol {
+    color: azure;
+}
+
+.blockchi {
+    font-family: "Amatic SC", serif;
+    font-size: 3.5em;
+    color: skyblue;
+    text-align: center;
+    margin-top: 10%;
+}
+
+.chik {
+    position: absolute;
+    left: 34em;
+    top: 2em;
+}
+
+.chikp {
+    text-align: center;
+    font-family: "Josefin Slab", serif;
+    font-size: 24px;
+    margin-top: 2.5em;
+}
+
+
+/*
+.bgchampion {
+    background-image: url(../Img/champions.png);
+    background-size: cover;
+    width: 100%;
+    height: 350px;
+    background-repeat: no-repeat;
+    background-position: center center;
+    z-index: 999;
+    margin-left: 70px;
+*/
+
+
+}
+.posrel {
+    position: relative;
+}
+.blockimage {
+    width: 100%;
+    height: auto;
+}
+.pad0 {
+    padding: 0;
+}
+.backgr {
+    background-color: #7cc7c5;
+    background-size: cover;
+}
+.textbig {
+    font-family: "Amatic SC", serif;
+    font-size: 7em;
+    color: #fffbe3;
+    text-align: center;
+    margin-top: 25%;
+}
+.backgrwhit {
+    background-color: #fff;
+    background-size: cover;
+}
+.textbigblue {
+    font-family: "Amatic SC", serif;
+    font-size: 7em;
+    color: #7cc7c5;
+    text-align: center;
+    margin-top: 25%;
+}
+.textbigul {
+    font-family: "Amatic SC", serif;
+    font-size: 3em;
+    color: #fffbe3;
+    text-align: justify;
+}
+.backgrbenefits {
+    background-color: #7cc7c5;
+    background-size: cover;
+}
+.bgfooter {
+    background-color: #42685e;
+    background-size: cover;
+    width: 100%;
+}
+.footerp {
+    color: #fffbe3;
+    font-family: "Josefin Slab", serif;
+    font-size: 20px;
+}
+.footerdiv {
+    margin-left: 40px;
+    padding-top: 30px;
+    padding-bottom: 20px;
+}
+
+/*         OUR STORY CSS           */
+.bgstory {
+    background-image: url(../Img/03_Our-Story_Large_Image.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 91.4em;
+    height: 20em;
+}
+.ourstory {
+    background-color: #7cc7c5;
+    width: 91.4em;
+    height: 4em;
+    position: relative;
+}
+.ourstrline {
+    margin-left: 350px;
+    margin-top: 25px;
+    display: inline-block;
+}
+.storyfont {
+    font-family: "Euphoria Script", cursive;
+    font-size: 40px;
+    font-weight: 900;
+    left: 530px;
+    bottom: -0.25em;
+    position: absolute;
+    color: #fffbe3;
+}
+.ourstrline2 {
+    display: inline-block;
+    margin-left: 180px;
+    margin-top: 25px;
+}
+.imgstory {
+    margin-top: 60px;
+}
+.textstory {
+    font-family: "Josefin Slab", serif;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: justify;
+    margin-top: 60px;
+    margin-left: 50px;
+    line-height: 35px;
+    color: #598881;
+}
+.textstory2 {
+    font-family: "Josefin Slab", serif;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 26px;
+    color: #598881;
+}
+.imgstory2 {
+    margin-top: 20px;
+}
+.textstory3 {
+    font-family: "Josefin Slab", serif;
+    font-size: 23px;
+    font-weight: 500;
+    text-align: justify;
+    margin-left: 50px;
+    line-height: 35px;
+    color: #598881;
+}
+.imgstory3 {
+/*    padding-bottom: 70px;*/
+/*    margin-bottom: 70px;*/
+/*    bottom: 90px;*/
+    bottom: -200px;
+    /*    margin-top: 20px;*/
+    
+    position: absolute;
+}
+
+
+/*UNDERLINE*/
+.seepies {
+    font-family: "Amatic SC", serif;
+    font-size: 70px;
+    margin-left: 100px;
+    position: relative;
+    color: #7cc7c5;
+    text-decoration: none;
+    
+}
+.seepies:hover {
+    color: #7cc7c5;
+    text-decoration: none;
+    
+}
+.seepies:before {
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 3px;
+    bottom: 0;
+    left: 0;
+    background-color: #7cc7c5;
+    visibility: hidden;
+    -webkit-transform: scaleX(0);
+    transform: scaleX(0);
+    -webkit-transition: all 0.3s ease-in-out 0s;
+    transition: all 0.3s ease-in-out 0s;
+    
+}
+.seepies:hover:before {
+    visibility: visible;
+    -webkit-transform: scaleX(1);
+    transform: scaleX(1);
+    
+}
+
+/*(end)UNDERLINE*/
+.bgourpies {
+    background-image: url(../Img/03_Our-Pies_Large_Image.jpg);
+    background-size: cover;
+    width: 100%;
+    background-repeat: no-repeat;
+    background-position: center center;
+    width: 91.4em;
+    height: 20em;
+}
